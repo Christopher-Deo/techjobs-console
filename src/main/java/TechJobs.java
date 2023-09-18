@@ -123,7 +123,7 @@ public class TechJobs {
 
         // Check if there are any jobs to print
         if (someJobs.isEmpty()) {
-            System.out.println("\nNo Results");
+            System.out.print("No Results");
         } else {
             // Iterate over each job HashMap
             for (HashMap<String, String> job : someJobs) {
@@ -132,12 +132,13 @@ public class TechJobs {
                 } else {
                     firstJob = false;
                 }
-                System.out.println("*****");
+                System.out.println("\n*****");
                 for (Map.Entry<String, String> entry : job.entrySet()) {
                     String key = entry.getKey();
                     String value = entry.getValue();
                     System.out.println(key + ": " + value);
                 }
+                System.out.println("*****");
             }
         }
     }
