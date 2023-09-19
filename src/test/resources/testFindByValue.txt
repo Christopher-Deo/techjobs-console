@@ -21,6 +21,7 @@ location: Portland
 core competency: Ruby
 *****
 
+
 *****
 position type: Web - Full Stack
 name: Full Stack Engineer
@@ -29,6 +30,7 @@ location: Rhode Island
 core competency: Ruby
 *****
 
+
 *****
 position type: Other
 name: QA Analyst
@@ -36,6 +38,7 @@ employer: Bandcamp
 location: New York
 core competency: Ruby, Javascript
 *****
+
 
 *****
 position type: Web - Back End
